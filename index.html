@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCEA CENTER</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1,h2,h3 { font-family: 'Montserrat', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-neutral-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <div class="flex items-center gap-2">
+        <img src="logo.png" alt="PCEA Church Logo" class="h-12">
+        <span class="text-xl font-bold text-[#0A4D8C]">PCEA Center</span>
+      </div>
+      <ul class="hidden md:flex items-center gap-6 font-medium">
+        <li><a href="#" class="hover:text-[#083C6D]">Home</a></li>
+        <li><a href="#ministries" class="hover:text-[#083C6D]">Ministries</a></li>
+        <li><a href="#events" class="hover:text-[#083C6D]">Events</a></li>
+        <li><a href="#media" class="hover:text-[#083C6D]">Media</a></li>
+        <li><a href="#donate" class="hover:text-[#083C6D]">Donate</a></li>
+        <li><a href="#login" class="hover:text-[#083C6D]">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Carousel -->
+  <section class="relative w-full h-64 overflow-hidden">
+    <div class="absolute inset-0 bg-[#0A4D8C] flex flex-col justify-center p-8 text-white">
+      <h2 class="text-3xl font-bold">Upcoming Service</h2>
+      <p class="mt-2">Join us this Sunday at 9AM</p>
+    </div>
+    <div class="absolute inset-0 bg-[#5BB1E7] flex flex-col justify-center p-8 text-white translate-x-full">
+      <h2 class="text-3xl font-bold">Jumbo Sale</h2>
+      <p class="mt-2">Support our youth initiatives</p>
+    </div>
+    <div class="absolute inset-0 bg-[#D4AF37] flex flex-col justify-center p-8 text-black translate-x-full">
+      <h2 class="text-3xl font-bold">Live Sermon</h2>
+      <p class="mt-2">Watch our stream online</p>
+    </div>
+  </section>
+
+  <!-- About Snippet -->
+  <section class="container mx-auto p-6">
+    <h2 class="text-3xl font-bold mb-4">About PCEA Center</h2>
+    <p class="mb-4">PCEA Center is a vibrant church community committed to faith, love, and hope. We serve all groups from Youth to Seniors with spiritual guidance, fellowship, and outreach programs. <a href="#about" class="text-[#0A4D8C] font-semibold">Learn more</a></p>
+  </section>
+
+  <!-- Ministries -->
+  <section id="ministries" class="container mx-auto p-6">
+    <h2 class="text-3xl font-bold mb-6">Our Ministries</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      
+      <!-- Ministry Card Example -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+        <img src="youth.jpg" alt="PCEA Center Youth" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-1">
+          <h3 class="text-xl font-bold">PCEA Center Youth</h3>
+          <p class="mt-2 flex-1">Engaging youth spiritually and socially.</p>
+          <a href="#" class="mt-4 bg-[#0A4D8C] text-white text-center py-2 rounded-md hover:bg-[#083C6D]">Visit</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+        <img src="women.jpg" alt="Women's Guild" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-1">
+          <h3 class="text-xl font-bold">Women's Guild</h3>
+          <p class="mt-2 flex-1">Empowering women in faith.</p>
+          <a href="#" class="mt-4 bg-[#0A4D8C] text-white text-center py-2 rounded-md hover:bg-[#083C6D]">Visit</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col">
+        <img src="men.jpg" alt="Men's Fellowship" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-1">
+          <h3 class="text-xl font-bold">Men's Fellowship</h3>
+          <p class="mt-2 flex-1">Building men of faith.</p>
+          <a href="#" class="mt-4 bg-[#0A4D8C] text-white text-center py-2 rounded-md hover:bg-[#083C6D]">Visit</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Upcoming Events -->
+  <section id="events" class="container mx-auto p-6">
+    <h2 class="text-3xl font-bold mb-4">Upcoming Events</h2>
+    <ul class="space-y-4">
+      <li class="bg-[#5BB1E7]/20 p-4 rounded-md shadow-md">
+        <h3 class="font-bold">Youth Fellowship Meeting</h3>
+        <p>Sunday, 9 AM - 11 AM</p>
+      </li>
+      <li class="bg-[#D4AF37]/20 p-4 rounded-md shadow-md">
+        <h3 class="font-bold">Women's Guild Charity Drive</h3>
+        <p>Saturday, 2 PM - 5 PM</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#F2F2F2] p-6 mt-12">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm text-neutral-800">&copy; 2025 PCEA Center. All rights reserved.</p>
+      <div class="flex gap-4 mt-2 md:mt-0">
+        <a href="#" class="hover:text-[#0A4D8C]">Facebook</a>
+        <a href="#" class="hover:text-[#0A4D8C]">Instagram</a>
+        <a href="#" class="hover:text-[#0A4D8C]">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+              </html>
